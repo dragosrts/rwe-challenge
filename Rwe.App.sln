@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rwe.App.Tests", "Rwe.App.Tests\Rwe.App.Tests.csproj", "{80CBF4F1-65AB-439E-920B-D9168BE641FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rwe.App", "Rwe.App\Rwe.App.csproj", "{1B319C30-C641-4141-95C4-01D062442330}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{5B7D6975-64D6-48D1-A62C-DAD839BAFF09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80CBF4F1-65AB-439E-920B-D9168BE641FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80CBF4F1-65AB-439E-920B-D9168BE641FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80CBF4F1-65AB-439E-920B-D9168BE641FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80CBF4F1-65AB-439E-920B-D9168BE641FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B319C30-C641-4141-95C4-01D062442330}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B319C30-C641-4141-95C4-01D062442330}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B319C30-C641-4141-95C4-01D062442330}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B319C30-C641-4141-95C4-01D062442330}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B7D6975-64D6-48D1-A62C-DAD839BAFF09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B7D6975-64D6-48D1-A62C-DAD839BAFF09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B7D6975-64D6-48D1-A62C-DAD839BAFF09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B7D6975-64D6-48D1-A62C-DAD839BAFF09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBB4174B-3D62-4672-94C9-2A31485161F9}
+	EndGlobalSection
+EndGlobal
